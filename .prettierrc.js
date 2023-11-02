@@ -1,3 +1,6 @@
+/**
+ * 注意：prettier版本会影响报错（esbenp.prettier-vscode-9.10.3\dist\extension.js:1:10594）
+ */
 module.exports = {
 	// 两个缩进
 	tabWidth: 2,

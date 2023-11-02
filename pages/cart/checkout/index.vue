@@ -1,13 +1,13 @@
-<script setup>
-    const router = useRouter()
-    const page = router.currentRoute;
+<script lang="ts" setup>
+const router = useRouter()
+const page = router.currentRoute
 </script>
 
 <template>
-    <Head>
-        <Title>Shoppers - About</Title>
-    </Head>
-    <div>
-        {{page.name}}
-    </div>
+	<Head>
+		<Title>Shoppers - About</Title>
+	</Head>
+	<div>
+		{{ page.name }}
+	</div>
 </template>
