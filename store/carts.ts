@@ -1,5 +1,5 @@
 export const useCartsStore = defineStore('saveCarts', () => {
-	// ...
+	// 测试store
 	const name = ref('')
 	const carts = ref<any[]>([])
 	const cartLength = ref(0)
